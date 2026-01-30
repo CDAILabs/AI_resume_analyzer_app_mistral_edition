@@ -1,0 +1,22 @@
+
+# =====================================================
+# Project Dependencies
+# =====================================================
+# This file lists all third-party Python packages
+# required to run this application.
+
+customtkinter
+python-docx
+fpdf
+llama-cpp-python
+spacy
+keybert
+sentence-transformers
+pdfplumber
+
+####### Install everything at once
+pip install customtkinter python-docx fpdf llama-cpp-python spacy keybert sentence-transformers pdfplumber
+
+####### Recommended install flow for users : 
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
